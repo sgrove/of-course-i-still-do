@@ -3,7 +3,7 @@ import React from "react";
 import { RelayEnvironmentProvider } from "react-relay/hooks";
 import RelayEnvironment from "./RelayEnvironment";
 import Header from "./Header";
-import RQuery from "./R";
+import TwitterQuery from "./Twitter";
 import MyQuery2Query from "./MyQuery2";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <>
       <Header />
       <section className="query">
-        <RQuery />
+        <TwitterQuery />
       </section>
       <section className="query">
         <MyQuery2Query />
